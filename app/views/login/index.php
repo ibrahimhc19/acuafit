@@ -1,9 +1,9 @@
 
 <?php
 
-include("app/config.php");
+include("app/config/config.php")
 
->
+?>
 
 <!doctype html>
 <html lang="es">
