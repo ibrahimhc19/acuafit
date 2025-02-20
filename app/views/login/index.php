@@ -27,14 +27,14 @@ include("../../../config/config.php")
             <img src="../../../public/images/logo-acuafit.jpg" alt="" width="120px" class="logo">
             <h5 class="card-title text-center mb-4 fw-light fs-5">Inicio de Sesión</h5>
 
-            <!-- action="inicio.php" method="post" -->
-            <form>
+            
+            <form action="../../controllers/loginController.php" method="post">
               <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
                 <label for="floatingInput">Usuario</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
                 <label for="floatingPassword">Contraseña</label>
               </div>
 
