@@ -1,7 +1,7 @@
 
 <?php
 
-include("app/config/config.php")
+include("../../../config/config.php")
 
 ?>
 
@@ -13,7 +13,7 @@ include("app/config/config.php")
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?=APP_NAME?></title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="<?=APP_URL?>public/css/styles.css">
+  <link rel="stylesheet" href="../../../public/css/styles.css">
 
 </head>
 
@@ -24,7 +24,7 @@ include("app/config/config.php")
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card border-0 shadow rounded-3 my-5">
           <div class="card-body p-4 p-sm-5">
-            <img src="<?=APP_URL?>public/images/logo.png" alt="" width="120px">
+            <img src="../../../public/images/logo-acuafit.jpg" alt="" width="120px" class="logo">
             <h5 class="card-title text-center mb-4 fw-light fs-5">Inicio de Sesión</h5>
 
             <!-- action="inicio.php" method="post" -->

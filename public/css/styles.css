@@ -35,3 +35,14 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  margin: 0 auto 8px;
+  border-radius: 50%;
+  display: flex;
+}
