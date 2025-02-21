@@ -6,7 +6,7 @@ $email = $_POST["email"];
 $password = $_POST["password"];
 
 // Se crea la consulta sql para traer los datos de la tabla
-$sql = "SELECT * FROM usuarios WHERE email = $email";
+$sql = "SELECT * FROM usuarios WHERE email = '$email'";
 // Se prepara el consulta
 $query = $pdo->prepare($sql);
 // Se ejecuta el consulta
