@@ -5,7 +5,7 @@ define("DB_NAME", "acuafit");
 define("DB_USER", "root");
 define("DB_PASSWORD", "");
 define("APP_NAME", "ADMINISTRACIÓN ACUAFIT");
-define("APP_URL", "/public/");
+define("APP_URL", "http://localhost/acuafit/");
 define("KEY_API_MAPS", "");
 define("ENV", 'development'); // O 'production' dependiendo del entorno
 
