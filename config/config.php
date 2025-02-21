@@ -1,5 +1,5 @@
 <?php
-
+// Mejor detallar de manera muy especifica las variables globales
 define("DB_HOST", "localhost");
 define("DB_NAME", "acuafit");
 define("DB_USER", "root");
@@ -7,6 +7,7 @@ define("DB_PASSWORD", "");
 define("APP_NAME", "ADMINISTRACIÓN ACUAFIT");
 define("APP_URL", "http://localhost/acuafit/");
 define("KEY_API_MAPS", "");
+// Se define una variable para activar/desactivar funciones de solo desarrollo
 define("ENV", 'development'); // O 'production' dependiendo del entorno
 
 $servidor = "mysql:dbname=" . DB_NAME . ";host=" . DB_HOST;
